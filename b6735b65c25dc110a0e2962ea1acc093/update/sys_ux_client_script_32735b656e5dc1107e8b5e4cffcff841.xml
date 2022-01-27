@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Home">b6735b657a5dc110ad897123cf0b7034</macroponent>
+        <name>Pagination Handler</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({api, event, helpers, imports}) {
+    if(event.payload.pageSize){
+        api.setState('pageSize', () => event.payload.pageSize);
+    }
+    if(event.payload.pageCursor){
+        api.setState('pageCursor', () => event.payload.pageCursor);
+    }
+    if(event.payload.pageNumber){
+        api.setState('pageNumber', () => event.payload.pageNumber);
+    }
+    if(event.payload.pageSize){
+        api.setState('pageSizeAll', () => event.payload.pageSizeAll);
+    }
+    if(event.payload.pageCursor){
+        api.setState('pageCursorAll', () => event.payload.pageCursorAll);
+    }
+    if(event.payload.pageNumber){
+        api.setState('pageNumberAll', () => event.payload.pageNumberAll);
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-27 06:16:42</sys_created_on>
+        <sys_id>32735b656e5dc1107e8b5e4cffcff841</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pagination Handler</sys_name>
+        <sys_package display_value="Time Off Request" source="x_appe_time_off_0">b6735b65c25dc110a0e2962ea1acc093</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Time Off Request">b6735b65c25dc110a0e2962ea1acc093</sys_scope>
+        <sys_update_name>sys_ux_client_script_32735b656e5dc1107e8b5e4cffcff841</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-27 06:16:42</sys_updated_on>
+    </sys_ux_client_script>
+</record_update>

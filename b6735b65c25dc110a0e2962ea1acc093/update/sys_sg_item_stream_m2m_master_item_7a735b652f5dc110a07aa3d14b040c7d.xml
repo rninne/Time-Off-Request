@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_m2m_master_item">
+    <sys_sg_item_stream_m2m_master_item action="INSERT_OR_UPDATE">
+        <item_stream display_value="Awaiting Approval Item Stream">32735b65265dc110291f7e2f4fbaec7d</item_stream>
+        <master_item display_value="Awaiting Approval Main Item">ba735b65465dc110f1916c9de6b8997d</master_item>
+        <sys_class_name>sys_sg_item_stream_m2m_master_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-27 06:16:54</sys_created_on>
+        <sys_id>7a735b652f5dc110a07aa3d14b040c7d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Time Off Request" source="x_appe_time_off_0">b6735b65c25dc110a0e2962ea1acc093</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Time Off Request">b6735b65c25dc110a0e2962ea1acc093</sys_scope>
+        <sys_update_name>sys_sg_item_stream_m2m_master_item_7a735b652f5dc110a07aa3d14b040c7d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-27 06:16:54</sys_updated_on>
+    </sys_sg_item_stream_m2m_master_item>
+</record_update>

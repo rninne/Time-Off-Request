@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Activity" section_id="f6735b65145dc1105cb7fd89b7b7002d" sys_domain="global" table="x_appe_time_off_0_request" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-27 06:16:30</sys_created_on>
+            <sys_id>7e735b65cc5dc11010d9845bac22c62f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Activity" display_value="Activity" name="x_appe_time_off_0_request" sys_domain="global" view="Default view">f6735b65145dc1105cb7fd89b7b7002d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-27 06:16:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-27 06:16:30</sys_created_on>
+            <sys_id>be735b65825dc110ad0a0ec514d4cf2f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Activity" display_value="Activity" name="x_appe_time_off_0_request" sys_domain="global" view="Default view">f6735b65145dc1105cb7fd89b7b7002d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-27 06:16:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-27 06:16:30</sys_created_on>
+            <sys_id>72735b655e5dc11090d18f63e69a2c30</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="">fe735b652e5dc1106a48411c9c282e2f</sys_ui_formatter>
+            <sys_ui_section caption="Activity" display_value="Activity" name="x_appe_time_off_0_request" sys_domain="global" view="Default view">f6735b65145dc1105cb7fd89b7b7002d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-27 06:16:30</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Activity</caption>
+            <header>false</header>
+            <name>x_appe_time_off_0_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-27 06:16:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f6735b65145dc1105cb7fd89b7b7002d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_appe_time_off_0_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Time Off Request" source="x_appe_time_off_0">b6735b65c25dc110a0e2962ea1acc093</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Time Off Request">b6735b65c25dc110a0e2962ea1acc093</sys_scope>
+            <sys_update_name>sys_ui_section_f6735b65145dc1105cb7fd89b7b7002d</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-27 06:16:30</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

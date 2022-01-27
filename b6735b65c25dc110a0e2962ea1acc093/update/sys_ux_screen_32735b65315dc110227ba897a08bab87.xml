@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <app_config display_value="Time Off Request workspace Config">36735b65165dc11098d859724517f582</app_config>
+        <description/>
+        <event_mappings>[ ]</event_mappings>
+        <macroponent display_value="Search results">b2735b65265dc1106f9dc446dccf223f</macroponent>
+        <macroponent_config>{
+  "label" : "",
+  "bare" : true,
+  "scrollable" : "y",
+  "headerLevel" : "1",
+  "interceptNotifications" : false,
+  "propagateNotifications" : false,
+  "views" : "workspace",
+  "selectedTabIndex" : 0
+}</macroponent_config>
+        <name>Search default</name>
+        <order>0</order>
+        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <required_translations>[]</required_translations>
+        <screen_condition/>
+        <screen_type/>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-27 06:17:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>32735b65315dc110227ba897a08bab87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Search default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Time Off Request" source="x_appe_time_off_0">b6735b65c25dc110a0e2962ea1acc093</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Time Off Request">b6735b65c25dc110a0e2962ea1acc093</sys_scope>
+        <sys_update_name>sys_ux_screen_32735b65315dc110227ba897a08bab87</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-27 06:17:04</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=32735b65315dc110227ba897a08bab87"/>
+</record_update>

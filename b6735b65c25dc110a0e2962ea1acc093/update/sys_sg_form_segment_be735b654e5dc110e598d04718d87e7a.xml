@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_form_segment">
+    <sys_sg_form_segment action="INSERT_OR_UPDATE">
+        <embedded_screen display_value="Details">ba735b65b35dc11028de69e58fdb9178</embedded_screen>
+        <form display_value="Recent Requests">b2735b65a05dc1109ca542ff19f9e07a</form>
+        <header_view_config/>
+        <is_sticky>false</is_sticky>
+        <order>10</order>
+        <sys_class_name>sys_sg_form_segment</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-27 06:17:06</sys_created_on>
+        <sys_id>be735b654e5dc110e598d04718d87e7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Time Off Request" source="x_appe_time_off_0">b6735b65c25dc110a0e2962ea1acc093</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Time Off Request">b6735b65c25dc110a0e2962ea1acc093</sys_scope>
+        <sys_update_name>sys_sg_form_segment_be735b654e5dc110e598d04718d87e7a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-27 06:17:06</sys_updated_on>
+    </sys_sg_form_segment>
+</record_update>

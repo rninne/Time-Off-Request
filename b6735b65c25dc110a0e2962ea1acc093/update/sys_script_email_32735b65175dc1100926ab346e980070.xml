@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>x_appe_time_off_0.to.view</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript( /* GlideRecord */ current, /* TemplatePrinter */ template,
+    /* Optional EmailOutbound */
+    email, /* Optional GlideRecord */ email_action,
+    /* Optional GlideRecord */
+    event) {
+
+    var link = current.getLink();
+    template.print('<font face="tahoma">');
+
+    // 	var backgroundColor = 'background-color: #003059;';
+    var color = 'color: #ffffff;';
+    var fontSize = 'font-size: 12pt;';
+    // 	var fontFamily = 'font-family: Helvetica, Arial, sans-serif;';
+    var textDecoration = 'text-decoration: none;';
+    // 	var webKitBorder = '-webkit-border-radius: 0px;';
+    // 	var mozBorder = '-moz-border-radius: 0px;';
+    // 	var display = 'display: inline-block;';
+    // 	var padding = 'padding: 13px 65px;';
+
+
+    //template.print('<a href="' + link + '"');
+    template.print('<a href="' + gs.getProperty('glide.servlet.uri') + 'now/time-off-request/portal/request/' + current.sys_class_name + '/' + current.sys_id + '/record' + '"');
+    template.print('style="' + color + fontSize + textDecoration);
+    template.print('">');
+    template.print(gs.getMessage('View request'));
+    template.print('</a>');
+    template.print('</font>');
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-27 06:16:35</sys_created_on>
+        <sys_id>32735b65175dc1100926ab346e980070</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_appe_time_off_0.to.view</sys_name>
+        <sys_package display_value="Time Off Request" source="x_appe_time_off_0">b6735b65c25dc110a0e2962ea1acc093</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Time Off Request">b6735b65c25dc110a0e2962ea1acc093</sys_scope>
+        <sys_update_name>sys_script_email_32735b65175dc1100926ab346e980070</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-27 06:16:35</sys_updated_on>
+    </sys_script_email>
+</record_update>

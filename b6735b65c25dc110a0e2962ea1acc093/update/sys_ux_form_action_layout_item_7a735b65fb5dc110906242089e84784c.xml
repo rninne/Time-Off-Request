@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_form_action_layout_item">
+    <sys_ux_form_action_layout_item action="INSERT_OR_UPDATE">
+        <action display_value="Decline">b2735b65525dc110558c7bec2f3aee4c</action>
+        <active>true</active>
+        <color/>
+        <description/>
+        <item_type>action</item_type>
+        <label>Decline</label>
+        <layout_group/>
+        <name>decline</name>
+        <order>0</order>
+        <overflow>false</overflow>
+        <sys_class_name>sys_ux_form_action_layout_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-27 06:17:04</sys_created_on>
+        <sys_id>7a735b65fb5dc110906242089e84784c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Decline</sys_name>
+        <sys_package display_value="Time Off Request" source="x_appe_time_off_0">b6735b65c25dc110a0e2962ea1acc093</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Time Off Request">b6735b65c25dc110a0e2962ea1acc093</sys_scope>
+        <sys_update_name>sys_ux_form_action_layout_item_7a735b65fb5dc110906242089e84784c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-27 06:17:04</sys_updated_on>
+        <table>x_appe_time_off_0_request</table>
+    </sys_ux_form_action_layout_item>
+</record_update>

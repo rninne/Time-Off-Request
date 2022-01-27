@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_chart_color">
+    <sys_report_chart_color action="INSERT_OR_UPDATE">
+        <color>#FF0000</color>
+        <color_name display_value="#003059">36735b65095dc110f3143a9b3c8ebb36</color_name>
+        <display>background-color:#003059</display>
+        <element>status</element>
+        <name>x_appe_time_off_0_request</name>
+        <sys_class_name>sys_report_chart_color</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-27 06:16:55</sys_created_on>
+        <sys_id>b6735b65035dc1105a458e5084cba16e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_appe_time_off_0_request</sys_name>
+        <sys_package display_value="Time Off Request" source="x_appe_time_off_0">b6735b65c25dc110a0e2962ea1acc093</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Time Off Request">b6735b65c25dc110a0e2962ea1acc093</sys_scope>
+        <sys_update_name>sys_report_chart_color_b6735b65035dc1105a458e5084cba16e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-27 06:16:55</sys_updated_on>
+        <value>rejected</value>
+    </sys_report_chart_color>
+</record_update>

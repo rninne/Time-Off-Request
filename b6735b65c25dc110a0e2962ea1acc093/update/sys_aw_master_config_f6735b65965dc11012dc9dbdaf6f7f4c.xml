@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_aw_master_config">
+    <sys_aw_master_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <brand_color>#003059</brand_color>
+        <compiled_page display_value="Workspace Core">b70867ad0f603300bb57f4a1ff767e15</compiled_page>
+        <compiled_page_registry/>
+        <description/>
+        <global_search display_value="Time off search settings">3e735b65645dc110d7aa63a193c4a94b</global_search>
+        <global_search_data display_value="">fd08fbeead38a010f8779a6b16742d0a</global_search_data>
+        <hide_search_results_count>false</hide_search_results_count>
+        <name>Time Off Request WS</name>
+        <navigation_type>tab</navigation_type>
+        <notifications_enabled>true</notifications_enabled>
+        <primary_color>#eae2f0</primary_color>
+        <search_enabled>true</search_enabled>
+        <sys_class_name>sys_aw_master_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-27 06:16:56</sys_created_on>
+        <sys_id>f6735b65965dc11012dc9dbdaf6f7f4c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Time Off Request WS</sys_name>
+        <sys_package display_value="Time Off Request" source="x_appe_time_off_0">b6735b65c25dc110a0e2962ea1acc093</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Time Off Request">b6735b65c25dc110a0e2962ea1acc093</sys_scope>
+        <sys_update_name>sys_aw_master_config_f6735b65965dc11012dc9dbdaf6f7f4c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-27 06:16:56</sys_updated_on>
+        <user_preference_controls_enabled>true</user_preference_controls_enabled>
+        <workspace_logo/>
+        <workspace_url>time-off-request</workspace_url>
+    </sys_aw_master_config>
+</record_update>

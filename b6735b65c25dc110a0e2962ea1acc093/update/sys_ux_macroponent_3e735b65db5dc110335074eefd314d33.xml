@@ -1,0 +1,1152 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <category>macroponent</category>
+        <component_dependencies/>
+        <composition>[ {
+  "elementId" : "container_1",
+  "elementLabel" : "Container 1",
+  "propertyValues" : { },
+  "eventMappings" : [ ],
+  "slot" : "Row 2",
+  "definition" : {
+    "id" : "d356d14b6e293a3020a244b63d278d8f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "container_3",
+      "elementLabel" : "Container 3",
+      "propertyValues" : { },
+      "eventMappings" : [ ],
+      "slot" : "Main",
+      "definition" : {
+        "id" : "d356d14b6e293a3020a244b63d278d8f",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : {
+        "composition" : [ {
+          "elementId" : "heading_1",
+          "elementLabel" : "Heading 1",
+          "propertyValues" : {
+            "label" : {
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "message" : "Time off request",
+                "comment" : ""
+              }
+            },
+            "level" : {
+              "type" : "JSON_LITERAL",
+              "value" : "1"
+            },
+            "variant" : {
+              "type" : "JSON_LITERAL",
+              "value" : "header-primary"
+            },
+            "wontWrap" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "hasNoMargin" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            }
+          },
+          "eventMappings" : [ ],
+          "slot" : "Main",
+          "definition" : {
+            "id" : "1f6e0643eca7a637e36bd7833549ec9e",
+            "type" : "MACROPONENT"
+          },
+          "overrides" : null,
+          "isHidden" : {
+            "type" : "JSON_LITERAL",
+            "value" : ""
+          },
+          "isNonDestructive" : false,
+          "styles" : { }
+        }, {
+          "elementId" : "button_1",
+          "elementLabel" : "Button 1",
+          "propertyValues" : {
+            "variant" : {
+              "type" : "JSON_LITERAL",
+              "value" : "primary"
+            },
+            "size" : {
+              "type" : "JSON_LITERAL",
+              "value" : "md"
+            },
+            "label" : {
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "message" : "Request time off",
+                "comment" : ""
+              }
+            },
+            "icon" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "disabled" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "tooltipContent" : {
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "message" : "Submit new time off request",
+                "comment" : ""
+              }
+            },
+            "configAria" : {
+              "type" : "MAP_CONTAINER",
+              "container" : { }
+            }
+          },
+          "eventMappings" : [ {
+            "eventMappingId" : "ckjniiydwpaaaabiddffiihhddbebbmxagg",
+            "isConfiguration" : false,
+            "offRowStorageId" : null,
+            "sourceEventApiName" : "sn_button.NOW_BUTTON#CLICKED",
+            "sourceEventDefinition" : {
+              "apiName" : "sn_button.NOW_BUTTON#CLICKED",
+              "id" : null,
+              "type" : "UXEVENT"
+            },
+            "sourceEventSysId" : null,
+            "targets" : [ {
+              "broker" : null,
+              "clientScript" : null,
+              "declarativeAction" : null,
+              "event" : {
+                "apiName" : "x_appe_time_off_0.NAV_ITEM_SELECTED_RELAY_3e735b65db5dc110335074eefd314d33",
+                "payload" : {
+                  "type" : "MAP_CONTAINER",
+                  "container" : {
+                    "route" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : "request"
+                    },
+                    "fields" : {
+                      "type" : "MAP_CONTAINER",
+                      "container" : {
+                        "table" : {
+                          "type" : "CONTEXT_BINDING",
+                          "binding" : {
+                            "address" : [ "tableConfigId" ],
+                            "category" : "app"
+                          }
+                        },
+                        "sysId" : {
+                          "type" : "JSON_LITERAL",
+                          "value" : "-1"
+                        },
+                        "page" : {
+                          "type" : "JSON_LITERAL",
+                          "value" : "new"
+                        }
+                      }
+                    },
+                    "params" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : null
+                    },
+                    "redirect" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : null
+                    },
+                    "passiveNavigation" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : null
+                    },
+                    "title" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : null
+                    },
+                    "multiInstField" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : "sysId"
+                    },
+                    "targetRoute" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : null
+                    },
+                    "external" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : null
+                    }
+                  }
+                },
+                "sysId" : "b2735b65235dc1105b09479f57576348"
+              },
+              "operation" : null,
+              "targetId" : "ckjniiydwpaaaabjddffiihhgddrhhkdbff",
+              "type" : "EVENT"
+            } ]
+          } ],
+          "slot" : "Main",
+          "definition" : {
+            "id" : "d37ce8abca89d02905fed903c8e34d8e",
+            "type" : "MACROPONENT"
+          },
+          "overrides" : null,
+          "isHidden" : {
+            "type" : "JSON_LITERAL",
+            "value" : ""
+          },
+          "isNonDestructive" : false,
+          "styles" : { }
+        } ],
+        "layout" : {
+          "default" : {
+            "children" : null,
+            "items" : [{"slotName":"Main","rules":{"grid-area":"main"},"styles":{"display":"flex","flex-direction":"column"}}],
+            "root" : null,
+            "rules" : {"grid-template-rows":"auto","grid-template-columns":"1fr","grid-template-areas":"\"main\"","grid-gap":"1rem","height":"100%"},
+            "styles" : null,
+            "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+            "type" : "grid"
+          }
+        }
+      },
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : {
+        "width" : "auto",
+        "margin-top" : "70px",
+        "padding-right" : "6rem",
+        "padding-left" : "6rem"
+      }
+    }, {
+      "elementId" : "container_4",
+      "elementLabel" : "Container 4",
+      "propertyValues" : { },
+      "eventMappings" : [ ],
+      "slot" : "Main",
+      "definition" : {
+        "id" : "d356d14b6e293a3020a244b63d278d8f",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : {
+        "composition" : [ {
+          "elementId" : "data_visualization_1",
+          "elementLabel" : "Data visualization 1",
+          "propertyValues" : {
+            "label" : {
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "message" : "Your upcoming time off",
+                "comment" : ""
+              }
+            },
+            "chartType" : {
+              "type" : "JSON_LITERAL",
+              "value" : "single_score"
+            },
+            "dataConfigurations" : {
+              "type" : "JSON_LITERAL",
+              "value" : "[{\"__viz_config_id\":\"dGFibGV4X3NuY190aW1lX29mZl9yZXF1ZXN0MTYwOTc5NjI1MDc4OA==\",\"__viz_config_label\":\"Time Off Request\",\"aggregate_function\":\"COUNT\",\"filter_query\":\"requested_byDYNAMIC90d1921e5f510100a9ad2572f2b477fe^start_date&gt;=javascript:gs.beginningOfToday()^status=approved\",\"display_zero\":true,\"chart_settings\":{\"color\":{\"type\":\"single_color\",\"sys_id\":\"0a6e5bd8481da810f877557fd58e16ae\",\"conditions\":[]}},\"source_type\":\"table\",\"source_id\":\"x_appe_time_off_0_request\"}]"
+            },
+            "styleConfigurations" : {
+              "type" : "JSON_LITERAL",
+              "value" : "{\"width\":\"auto\",\"height\":\"auto\",\"showDataLabels\":false,\"canClick\":false,\"dataLabelConfig\":{\"align\":\"middle\",\"collisions\":\"hide\",\"stacked\":\"individual\",\"valueType\":\"both\"}}"
+            },
+            "isRealtime" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "showRealtimeIndicator" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
+            },
+            "variant" : {
+              "type" : "JSON_LITERAL",
+              "value" : "auto"
+            },
+            "border" : {
+              "type" : "JSON_LITERAL",
+              "value" : true
+            },
+            "refreshInterval" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
+            },
+            "kpiDetailsNavigation" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "followFilters" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "hideFiltersInfo" : {
+              "type" : "JSON_LITERAL",
+              "value" : true
+            },
+            "filterConfigurations" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
+            },
+            "hideHeader" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "refreshFrequency" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
+            }
+          },
+          "eventMappings" : [ ],
+          "slot" : "Column 1",
+          "definition" : {
+            "id" : "67cf18a377c70010cb834a2a6910619a",
+            "type" : "MACROPONENT"
+          },
+          "overrides" : null,
+          "isHidden" : {
+            "type" : "JSON_LITERAL",
+            "value" : ""
+          },
+          "isNonDestructive" : false,
+          "styles" : {
+            "border-radius" : "4px",
+            "border-left" : "10px solid",
+            "border-color" : "#003059"
+          }
+        }, {
+          "elementId" : "data_visualization_2",
+          "elementLabel" : "Data visualization 2",
+          "propertyValues" : {
+            "label" : {
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "message" : "Time off taken this year",
+                "comment" : ""
+              }
+            },
+            "chartType" : {
+              "type" : "JSON_LITERAL",
+              "value" : "single_score"
+            },
+            "dataConfigurations" : {
+              "type" : "JSON_LITERAL",
+              "value" : "[{\"__viz_config_id\":\"dGFibGV4X3NuY190aW1lX29mZl9yZXF1ZXN0MTYwOTc5NjQwODMyOA==\",\"__viz_config_label\":\"Time Off Request\",\"aggregate_function\":\"COUNT\",\"filter_query\":\"requested_byDYNAMIC90d1921e5f510100a9ad2572f2b477fe^end_dateONThis year@javascript:gs.beginningOfThisYear()@javascript:gs.endOfThisYear()^end_date&lt;=javascript:gs.endOfToday()\",\"display_zero\":true,\"chart_settings\":{\"main_series_label\":\"days\",\"color\":{\"type\":\"single_color\",\"sys_id\":\"0a6e5bd8481da810f877557fd58e16ae\",\"conditions\":[]}},\"source_type\":\"table\",\"source_id\":\"x_appe_time_off_0_request\"}]"
+            },
+            "styleConfigurations" : {
+              "type" : "JSON_LITERAL",
+              "value" : "{\"width\":\"auto\",\"height\":\"auto\",\"showDataLabels\":false,\"canClick\":false,\"dataLabelConfig\":{\"align\":\"middle\",\"collisions\":\"hide\",\"stacked\":\"individual\",\"valueType\":\"both\"}}"
+            },
+            "isRealtime" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "showRealtimeIndicator" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
+            },
+            "variant" : {
+              "type" : "JSON_LITERAL",
+              "value" : "auto"
+            },
+            "border" : {
+              "type" : "JSON_LITERAL",
+              "value" : true
+            },
+            "refreshInterval" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
+            },
+            "kpiDetailsNavigation" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "followFilters" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "hideFiltersInfo" : {
+              "type" : "JSON_LITERAL",
+              "value" : true
+            },
+            "filterConfigurations" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
+            },
+            "hideHeader" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "refreshFrequency" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
+            }
+          },
+          "eventMappings" : [ ],
+          "slot" : "Column 2",
+          "definition" : {
+            "id" : "67cf18a377c70010cb834a2a6910619a",
+            "type" : "MACROPONENT"
+          },
+          "overrides" : null,
+          "isHidden" : {
+            "type" : "JSON_LITERAL",
+            "value" : ""
+          },
+          "isNonDestructive" : false,
+          "styles" : {
+            "border-left" : "10px solid",
+            "border-color" : "#003059",
+            "border-radius" : "4px"
+          }
+        }, {
+          "elementId" : "data_visualization_3",
+          "elementLabel" : "Data visualization 3",
+          "propertyValues" : {
+            "label" : {
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "message" : "Requests awaiting approval",
+                "comment" : ""
+              }
+            },
+            "chartType" : {
+              "type" : "JSON_LITERAL",
+              "value" : "single_score"
+            },
+            "dataConfigurations" : {
+              "type" : "JSON_LITERAL",
+              "value" : "[{\"__viz_config_id\":\"dGFibGV4X3NuY190aW1lX29mZl9yZXF1ZXN0MTYwOTc5NjQyMzAxMA==\",\"__viz_config_label\":\"Time Off Request\",\"aggregate_function\":\"COUNT\",\"filter_query\":\"requested_byDYNAMIC90d1921e5f510100a9ad2572f2b477fe^start_date&gt;javascript:gs.endOfToday()^status=requested\",\"display_zero\":true,\"chart_settings\":{\"color\":{\"type\":\"single_color\",\"sys_id\":\"0a6e5bd8481da810f877557fd58e16ae\",\"conditions\":[]}},\"source_type\":\"table\",\"source_id\":\"x_appe_time_off_0_request\"}]"
+            },
+            "styleConfigurations" : {
+              "type" : "JSON_LITERAL",
+              "value" : "{\"width\":\"auto\",\"height\":\"auto\",\"showDataLabels\":false,\"canClick\":false,\"dataLabelConfig\":{\"align\":\"middle\",\"collisions\":\"hide\",\"stacked\":\"individual\",\"valueType\":\"both\"}}"
+            },
+            "isRealtime" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "showRealtimeIndicator" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
+            },
+            "variant" : {
+              "type" : "JSON_LITERAL",
+              "value" : "auto"
+            },
+            "border" : {
+              "type" : "JSON_LITERAL",
+              "value" : true
+            },
+            "refreshInterval" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
+            },
+            "kpiDetailsNavigation" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "followFilters" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "hideFiltersInfo" : {
+              "type" : "JSON_LITERAL",
+              "value" : true
+            },
+            "filterConfigurations" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
+            },
+            "hideHeader" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "refreshFrequency" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
+            }
+          },
+          "eventMappings" : [ ],
+          "slot" : "Column 3",
+          "definition" : {
+            "id" : "67cf18a377c70010cb834a2a6910619a",
+            "type" : "MACROPONENT"
+          },
+          "overrides" : null,
+          "isHidden" : {
+            "type" : "JSON_LITERAL",
+            "value" : ""
+          },
+          "isNonDestructive" : false,
+          "styles" : {
+            "border-left" : "10px solid",
+            "border-color" : "#003059",
+            "border-radius" : "4px"
+          }
+        } ],
+        "layout" : {
+          "default" : {
+            "children" : null,
+            "items" : [{"slotName":"Column 1","rules":{"grid-area":"column1"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"Column 2","rules":{"grid-area":"column2"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"Column 3","rules":{"grid-area":"column3"},"styles":{"display":"flex","flex-direction":"column"}}],
+            "root" : null,
+            "rules" : {"grid-template-rows":"auto","grid-template-columns":"1fr 1fr 1fr","grid-template-areas":"\"column1 column2 column3\"","grid-gap":"1rem","height":"100%"},
+            "styles" : null,
+            "templateId" : "4105f10153071010e6bcddeeff7b121e",
+            "type" : "grid"
+          }
+        }
+      },
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : {
+        "width" : "auto",
+        "margin" : "auto",
+        "position" : "relative",
+        "left" : "80px"
+      }
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "items" : [{"slotName":"Main","rules":{"grid-area":"main"},"styles":{"display":"flex","flex-direction":"row","max-width":"90rem","margin":"0 auto"}}],
+        "root" : null,
+        "rules" : {"grid-template-rows":"auto","grid-template-columns":"1fr","grid-template-areas":"\"main\"","grid-gap":"2rem","height":"100%"},
+        "styles" : null,
+        "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+        "type" : "grid"
+      }
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : {
+    "display" : "flex",
+    "flex-direction" : "column",
+    "background-color" : "#EAE2F0",
+    "height" : "16rem",
+    "background-image" : "url(\"/x_appe_time_off_0.time_off_header_landing_page.svg\"), linear-gradient(90deg, #fff 33%, #eae2f0 33%)",
+    "background-repeat" : "no-repeat, no-repeat",
+    "background-size" : "35rem, auto, auto",
+    "background-position" : "10% 100%, 0% 0%, 0% 0%"
+  }
+}, {
+  "elementId" : "container_5",
+  "elementLabel" : "Container 5",
+  "propertyValues" : { },
+  "eventMappings" : [ ],
+  "slot" : "Row 2",
+  "definition" : {
+    "id" : "d356d14b6e293a3020a244b63d278d8f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "container_6",
+      "elementLabel" : "Container 6",
+      "propertyValues" : { },
+      "eventMappings" : [ ],
+      "slot" : "Main",
+      "definition" : {
+        "id" : "d356d14b6e293a3020a244b63d278d8f",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : {
+        "composition" : [ {
+          "elementId" : "data_row_1",
+          "elementLabel" : "Data row 1",
+          "propertyValues" : {
+            "title" : {
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "message" : "Recent requests",
+                "comment" : ""
+              }
+            },
+            "layout" : {
+              "type" : "JSON_LITERAL",
+              "value" : "horizontal"
+            },
+            "data" : {
+              "type" : "DATA_OUTPUT_BINDING",
+              "binding" : {
+                "address" : [ "transform__recent_requests_1", "output" ]
+              }
+            },
+            "cardHeightHorizontal" : {
+              "type" : "JSON_LITERAL",
+              "value" : "sm"
+            },
+            "maxVisibleCardsHorizontal" : {
+              "type" : "JSON_LITERAL",
+              "value" : "4"
+            },
+            "minCardPixelWidth" : {
+              "type" : "JSON_LITERAL",
+              "value" : "150"
+            },
+            "noDataMessage" : {
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "message" : "You haven't requested any time off yet. Create a new paid time off request to get started.",
+                "comment" : ""
+              }
+            },
+            "viewAllLinkLabel" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
+            },
+            "noBox" : {
+              "type" : "JSON_LITERAL",
+              "value" : true
+            },
+            "daClientActionContract" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            }
+          },
+          "eventMappings" : [ ],
+          "slot" : "Row 1",
+          "definition" : {
+            "id" : "fae56519b74e7995b69ae7cf66e280f9",
+            "type" : "MACROPONENT"
+          },
+          "overrides" : null,
+          "isHidden" : {
+            "type" : "JSON_LITERAL",
+            "value" : ""
+          },
+          "isNonDestructive" : false,
+          "styles" : { }
+        }, {
+          "elementId" : "data_row_2",
+          "elementLabel" : "Data row 2",
+          "propertyValues" : {
+            "title" : {
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "message" : "All requests",
+                "comment" : ""
+              }
+            },
+            "layout" : {
+              "type" : "JSON_LITERAL",
+              "value" : "horizontal"
+            },
+            "data" : {
+              "type" : "DATA_OUTPUT_BINDING",
+              "binding" : {
+                "address" : [ "transform__all_requests_1", "output" ]
+              }
+            },
+            "cardHeightHorizontal" : {
+              "type" : "JSON_LITERAL",
+              "value" : "sm"
+            },
+            "maxVisibleCardsHorizontal" : {
+              "type" : "JSON_LITERAL",
+              "value" : "4"
+            },
+            "minCardPixelWidth" : {
+              "type" : "JSON_LITERAL",
+              "value" : "150"
+            },
+            "noDataMessage" : {
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "message" : "You haven't requested any time off yet. Create a new paid time off request to get started.",
+                "comment" : ""
+              }
+            },
+            "viewAllLinkLabel" : {
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "message" : "See All",
+                "comment" : ""
+              }
+            },
+            "noBox" : {
+              "type" : "JSON_LITERAL",
+              "value" : true
+            },
+            "daClientActionContract" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            }
+          },
+          "eventMappings" : [ {
+            "eventMappingId" : "ckjteebbqpzaaaahhjddgghhwyqcccoyff",
+            "isConfiguration" : false,
+            "offRowStorageId" : null,
+            "sourceEventApiName" : "now_data_row.NOW_DATA_ROW#VIEW_ALL_CLICKED",
+            "sourceEventDefinition" : {
+              "apiName" : "now_data_row.NOW_DATA_ROW#VIEW_ALL_CLICKED",
+              "id" : null,
+              "type" : "UXEVENT"
+            },
+            "sourceEventSysId" : null,
+            "targets" : [ {
+              "broker" : null,
+              "clientScript" : null,
+              "declarativeAction" : null,
+              "event" : {
+                "apiName" : "x_appe_time_off_0.NAV_ITEM_SELECTED_RELAY_3e735b65db5dc110335074eefd314d33",
+                "payload" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : {
+                    "route" : "landing",
+                    "fields" : {
+                      "page" : "all"
+                    },
+                    "params" : null,
+                    "redirect" : null,
+                    "passiveNavigation" : null,
+                    "title" : null,
+                    "multiInstField" : null,
+                    "targetRoute" : null,
+                    "external" : null
+                  }
+                },
+                "sysId" : "b2735b65235dc1105b09479f57576348"
+              },
+              "operation" : null,
+              "targetId" : "ckjteebbqpzaaaahhkddgghhwnroeeiirmq",
+              "type" : "EVENT"
+            } ]
+          } ],
+          "slot" : "Row 2",
+          "definition" : {
+            "id" : "fae56519b74e7995b69ae7cf66e280f9",
+            "type" : "MACROPONENT"
+          },
+          "overrides" : null,
+          "isHidden" : {
+            "type" : "JSON_LITERAL",
+            "value" : ""
+          },
+          "isNonDestructive" : false,
+          "styles" : { }
+        } ],
+        "layout" : {
+          "default" : {
+            "children" : null,
+            "items" : [{"slotName":"Row 1","rules":{"grid-area":"row1"},"styles":{"display":"flex","flex-direction":"column","padding":"16px","background-color":"white","box-sizing":"border-box"}},{"slotName":"Row 2","rules":{"grid-area":"row2"},"styles":{"display":"flex","flex-direction":"column","background-color":"white","padding":"16px","box-sizing":"border-box"}}],
+            "root" : null,
+            "rules" : {"grid-template-rows":"1fr 1fr","grid-template-columns":"100%","grid-template-areas":"\"row1\" \"row2\"","grid-gap":"1rem","height":"100%"},
+            "styles" : null,
+            "templateId" : "f348f94153071010e6bcddeeff7b12dd",
+            "type" : "grid"
+          }
+        }
+      },
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : { }
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "items" : [{"slotName":"Main","rules":{"grid-area":"main"},"styles":{"display":"flex","flex-direction":"column","max-width":"90rem","margin":"0 auto","padding":"24px"}}],
+        "root" : null,
+        "rules" : {"grid-template-rows":"auto","grid-template-columns":"1fr","grid-template-areas":"\"main\"","grid-gap":"1rem","height":"100%"},
+        "styles" : null,
+        "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+        "type" : "grid"
+      }
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : {
+    "background-color" : "#F6F7F7"
+  }
+} ]</composition>
+        <da_relay_models/>
+        <data>[ {
+  "definition" : {
+    "id" : "e6af35d9dbb810106b3982c9689619e5",
+    "type" : "COMPOSITE"
+  },
+  "elementId" : "evam_recent_requests",
+  "elementLabel" : "EVAM Recent Requests",
+  "eventMappings" : [ ],
+  "inputValues" : {
+    "evamDefinitionId" : {
+      "type" : "JSON_LITERAL",
+      "value" : "32735b65985dc110b038715d930a1445"
+    },
+    "pageCursor" : {
+      "type" : "STATE_BINDING",
+      "binding" : {
+        "address" : [ "pageCursor" ]
+      }
+    },
+    "pageSize" : {
+      "type" : "STATE_BINDING",
+      "binding" : {
+        "address" : [ "pageSize" ]
+      }
+    },
+    "pageNumber" : {
+      "type" : "STATE_BINDING",
+      "binding" : {
+        "address" : [ "pageNumber" ]
+      }
+    },
+    "filterPreference" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    }
+  },
+  "readEvaluationMode" : "EAGER"
+}, {
+  "definition" : {
+    "id" : "b6735b65db5dc110f2f27d62f396190d",
+    "type" : "TRANSFORM"
+  },
+  "elementId" : "transform__recent_requests_1",
+  "elementLabel" : "Transform - Recent Requests 1",
+  "eventMappings" : [ ],
+  "inputValues" : {
+    "evamData" : {
+      "type" : "DATA_OUTPUT_BINDING",
+      "binding" : {
+        "address" : [ "evam_recent_requests", "compositeDataViews" ]
+      }
+    }
+  },
+  "readEvaluationMode" : "EAGER"
+}, {
+  "definition" : {
+    "id" : "e6af35d9dbb810106b3982c9689619e5",
+    "type" : "COMPOSITE"
+  },
+  "elementId" : "evam_all_requests",
+  "elementLabel" : "EVAM All Requests",
+  "eventMappings" : [ ],
+  "inputValues" : {
+    "evamDefinitionId" : {
+      "type" : "JSON_LITERAL",
+      "value" : "fe735b65025dc110a7b4ff40f459e244"
+    },
+    "pageCursor" : {
+      "type" : "STATE_BINDING",
+      "binding" : {
+        "address" : [ "pageCursor" ]
+      }
+    },
+    "pageSize" : {
+      "type" : "STATE_BINDING",
+      "binding" : {
+        "address" : [ "pageSize" ]
+      }
+    },
+    "pageNumber" : {
+      "type" : "STATE_BINDING",
+      "binding" : {
+        "address" : [ "pageNumber" ]
+      }
+    },
+    "filterPreference" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    }
+  },
+  "readEvaluationMode" : "EAGER"
+}, {
+  "definition" : {
+    "id" : "36735b65db5dc110f2f27d62f396190d",
+    "type" : "TRANSFORM"
+  },
+  "elementId" : "transform__all_requests_1",
+  "elementLabel" : "Transform - All Requests 1",
+  "eventMappings" : [ ],
+  "inputValues" : {
+    "evamData" : {
+      "type" : "DATA_OUTPUT_BINDING",
+      "binding" : {
+        "address" : [ "evam_all_requests", "compositeDataViews" ]
+      }
+    }
+  },
+  "readEvaluationMode" : "EAGER"
+} ]</data>
+        <dispatched_events>b2735b65235dc1105b09479f57576348,fa735b65295dc110cf66511d29837d4a,ba735b653f5dc110edb7effa0d756547</dispatched_events>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <handled_events>ba735b65f45dc110674caf3a8c7cc333,7e735b65965dc110c2ef4fffe722f333</handled_events>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{
+  "MACROPONENT_PROPERTY_CHANGED" : [ {
+    "broker" : null,
+    "clientScript" : {
+      "sysId" : "ba735b657d5dc110ee973086b6fe6f41"
+    },
+    "declarativeAction" : null,
+    "event" : null,
+    "operation" : null,
+    "targetId" : "ckjxcfqcctaaaaiirddgghhwtakbttkbb",
+    "type" : "CLIENT_SCRIPT"
+  } ],
+  "MACROPONENT_READY" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : null,
+      "payload" : {
+        "type" : "JSON_LITERAL",
+        "value" : { }
+      },
+      "sysId" : null
+    },
+    "operation" : null,
+    "targetId" : "ckjtffffffwbaaaaaagddffiihhndstpggaaaa",
+    "type" : "EVENT"
+  } ],
+  "x_appe_time_off_0.DATA_SET_EDIT_BUTTON_CLICKED" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "x_appe_time_off_0.NAV_ITEM_SELECTED_RELAY_3e735b65db5dc110335074eefd314d33",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "route" : {
+            "type" : "JSON_LITERAL",
+            "value" : "request"
+          },
+          "fields" : {
+            "type" : "MAP_CONTAINER",
+            "container" : {
+              "table" : {
+                "type" : "EVENT_PAYLOAD_BINDING",
+                "binding" : {
+                  "address" : [ "table" ]
+                }
+              },
+              "sysId" : {
+                "type" : "EVENT_PAYLOAD_BINDING",
+                "binding" : {
+                  "address" : [ "sysId" ]
+                }
+              },
+              "page" : {
+                "type" : "JSON_LITERAL",
+                "value" : "edit"
+              }
+            }
+          },
+          "params" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "redirect" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "passiveNavigation" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "title" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "multiInstField" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "targetRoute" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "external" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          }
+        }
+      },
+      "sysId" : "b2735b65235dc1105b09479f57576348"
+    },
+    "operation" : null,
+    "targetId" : "ckjniitdxggaaaajjlddffiihhviihhggsebbii",
+    "type" : "EVENT"
+  } ],
+  "x_appe_time_off_0.DATA_SET_ITEM_CLICKED" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "x_appe_time_off_0.NAV_ITEM_SELECTED_RELAY_3e735b65db5dc110335074eefd314d33",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "route" : {
+            "type" : "JSON_LITERAL",
+            "value" : "request"
+          },
+          "fields" : {
+            "type" : "MAP_CONTAINER",
+            "container" : {
+              "table" : {
+                "type" : "EVENT_PAYLOAD_BINDING",
+                "binding" : {
+                  "address" : [ "table" ]
+                }
+              },
+              "sysId" : {
+                "type" : "EVENT_PAYLOAD_BINDING",
+                "binding" : {
+                  "address" : [ "sysId" ]
+                }
+              },
+              "page" : {
+                "type" : "JSON_LITERAL",
+                "value" : "record"
+              }
+            }
+          },
+          "params" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "redirect" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "passiveNavigation" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "title" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "multiInstField" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "targetRoute" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "external" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          }
+        }
+      },
+      "sysId" : "b2735b65235dc1105b09479f57576348"
+    },
+    "operation" : null,
+    "targetId" : "ckjniiuieeeeaaaajjpddffiihhzygetpfv",
+    "type" : "EVENT"
+  } ]
+}</internal_event_mappings>
+        <layout>{
+  "default" : {
+    "children" : null,
+    "items" : [{"slotName":"Row 1","rules":{"grid-area":"row1"},"styles":{}},{"slotName":"Row 2","rules":{"grid-area":"row2"},"styles":{"background-color":"rgb(242, 243, 243)","display":"flex","flex-direction":"column"}}],
+    "root" : null,
+    "rules" : {"grid-template-rows":"auto 1fr","grid-template-columns":"100%","grid-template-areas":"\"row1\" \"row2\"","min-height":"280px","height":"100%"},
+    "styles" : null,
+    "templateId" : "1afa9dc153c31010e6bcddeeff7b1280",
+    "type" : "grid"
+  }
+}</layout>
+        <macroponent_dependencies/>
+        <name>design test</name>
+        <props>[ {
+  "name" : "page",
+  "label" : "page",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : "",
+  "description" : "",
+  "readOnly" : true,
+  "selectable" : false
+}, {
+  "name" : "refresh",
+  "label" : "Refresh",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : "",
+  "description" : null,
+  "readOnly" : true,
+  "selectable" : false
+} ]</props>
+        <required_translations>[{"message":"Submit new time off request","comment":""},{"message":"Your upcoming time off","comment":""},{"message":"Requests awaiting approval","comment":""},{"message":"Recent requests","comment":""},{"message":"You haven't requested any time off yet. Create a new paid time off request to get started.","comment":""},{"message":"Request time off","comment":""},{"message":"All requests","comment":""},{"message":"Time off taken this year","comment":""},{"message":"See All","comment":""},{"message":"Time off request","comment":""}]</required_translations>
+        <root_component/>
+        <root_component_config>{ }</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[ {
+  "name" : "pageCursor",
+  "label" : "pageCursor",
+  "fieldType" : "",
+  "valueType" : "",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  }
+}, {
+  "name" : "pageSize",
+  "label" : "pageSize",
+  "fieldType" : "number",
+  "valueType" : "number",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : 4
+  }
+}, {
+  "name" : "pageNumber",
+  "label" : "pageNumber",
+  "fieldType" : "number",
+  "valueType" : "number",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : 1
+  }
+} ]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-27 06:16:54</sys_created_on>
+        <sys_id>3e735b65db5dc110335074eefd314d33</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>design test</sys_name>
+        <sys_package display_value="Time Off Request" source="x_appe_time_off_0">b6735b65c25dc110a0e2962ea1acc093</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Time Off Request">b6735b65c25dc110a0e2962ea1acc093</sys_scope>
+        <sys_update_name>sys_ux_macroponent_3e735b65db5dc110335074eefd314d33</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-27 06:16:54</sys_updated_on>
+    </sys_ux_macroponent>
+</record_update>

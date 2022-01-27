@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_highlighted_value_condition">
+    <sys_highlighted_value_condition action="INSERT_OR_UPDATE">
+        <conditions table="x_appe_time_off_0_request">status=draft^EQ<item display_value="Draft" endquery="false" field="status" goto="false" newquery="false" operator="=" or="false" value="draft"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <highlighted_value display_value="status">f2735b65f85dc110169a1be7c6c73661</highlighted_value>
+        <order>40</order>
+        <show_icon>true</show_icon>
+        <status>info</status>
+        <sys_class_name>sys_highlighted_value_condition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-27 06:16:53</sys_created_on>
+        <sys_id>f6735b65f95dc110bc49eb8d10f7de61</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Time Off Request" source="x_appe_time_off_0">b6735b65c25dc110a0e2962ea1acc093</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Time Off Request">b6735b65c25dc110a0e2962ea1acc093</sys_scope>
+        <sys_update_name>sys_highlighted_value_condition_f6735b65f95dc110bc49eb8d10f7de61</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-27 06:16:53</sys_updated_on>
+        <value_override/>
+    </sys_highlighted_value_condition>
+</record_update>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description> &#13;
+&#13;
+added:       "viewportElementId": "wsCornerDialog"&#13;
+    },</description>
+        <name>chrome_toolbar</name>
+        <page display_value="Time Off Request workspace">f2735b651d5dc1105a23772281aa5552</page>
+        <required_translations>[{"message":"Lists","comment":""},{"message":"Home","comment":""}]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-27 06:16:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>b2735b65135dc110426392b0cdbc8f52</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_toolbar</sys_name>
+        <sys_package display_value="Time Off Request" source="x_appe_time_off_0">b6735b65c25dc110a0e2962ea1acc093</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Time Off Request">b6735b65c25dc110a0e2962ea1acc093</sys_scope>
+        <sys_update_name>sys_ux_page_property_b2735b65135dc110426392b0cdbc8f52</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-27 06:16:33</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_appe_time_off_0.f2735b651d5dc1105a23772281aa5552.root.chrome_toolbar</unique_name>
+        <value>[&#13;
+  {&#13;
+    "id": "dashboard",&#13;
+   "label": {&#13;
+                  "translatable": true,&#13;
+                  "message": "Home"&#13;
+                },&#13;
+    "icon": "home-outline",&#13;
+    "viewportInfo": {},&#13;
+    "routeInfo": {&#13;
+      "route": "dashboard"&#13;
+    },&#13;
+    "group": "top",&#13;
+    "badge": {},&#13;
+    "presence": {},&#13;
+    "availability": {}&#13;
+  },&#13;
+  {&#13;
+    "id": "list",&#13;
+    "label": {&#13;
+                  "translatable": true,&#13;
+                  "message": "Lists"&#13;
+                },&#13;
+    "icon": "list-outline",&#13;
+    "viewportInfo": {},&#13;
+    "routeInfo": {&#13;
+      "route": "list"&#13;
+    },&#13;
+    "group": "top",&#13;
+    "badge": {},&#13;
+    "presence": {},&#13;
+    "availability": {}&#13;
+  }&#13;
+]</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=b2735b65135dc110426392b0cdbc8f52"/>
+</record_update>

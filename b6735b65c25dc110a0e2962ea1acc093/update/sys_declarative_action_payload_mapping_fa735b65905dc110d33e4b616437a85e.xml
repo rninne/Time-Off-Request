@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_declarative_action_payload_mapping">
+    <sys_declarative_action_payload_mapping action="INSERT_OR_UPDATE">
+        <action_payload_definition display_value="Edit">3e735b65215dc11099c6b6dcd309e55b</action_payload_definition>
+        <label>Edit List</label>
+        <model display_value="List">c3547169534723003eddddeeff7b126c</model>
+        <payload_map>sysIds={{sysIds}}^table={{table}}^EQ</payload_map>
+        <sys_class_name>sys_declarative_action_payload_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-27 06:16:56</sys_created_on>
+        <sys_id>fa735b65905dc110d33e4b616437a85e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Edit List</sys_name>
+        <sys_package display_value="Time Off Request" source="x_appe_time_off_0">b6735b65c25dc110a0e2962ea1acc093</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Time Off Request">b6735b65c25dc110a0e2962ea1acc093</sys_scope>
+        <sys_update_name>sys_declarative_action_payload_mapping_fa735b65905dc110d33e4b616437a85e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-27 06:16:56</sys_updated_on>
+    </sys_declarative_action_payload_mapping>
+</record_update>

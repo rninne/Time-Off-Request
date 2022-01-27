@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="Time Off Request workspace Config">36735b65165dc11098d859724517f582</app_config>
+        <description/>
+        <event_mappings>[ ]</event_mappings>
+        <macroponent display_value="SHN Page">b6735b65ce5dc110ffd958842deefc4f</macroponent>
+        <macroponent_config>{
+  "label" : "Special Handling Notes",
+  "level" : 1,
+  "variant" : "header-secondary",
+  "confs" : "@data.get_special_handling_notes.output.data.GlideSHN_Query",
+  "table" : "@data.gform.nowRecordFormBlob.table",
+  "sysId" : "@data.gform.nowRecordFormBlob.sysId",
+  "bare" : true,
+  "scrollable" : "y",
+  "headerLevel" : "1",
+  "interceptNotifications" : false,
+  "propagateNotifications" : false,
+  "views" : "workspace",
+  "selectedTabIndex" : 0
+}</macroponent_config>
+        <name>SHN Page Default</name>
+        <order>0</order>
+        <parent_macroponent/>
+        <required_translations>[{"message":"Special Handling Notes","comment":""}]</required_translations>
+        <screen_condition/>
+        <screen_type display_value="Special Handling Notes">76735b655d5dc11001fceaeb5e7cec3b</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-27 06:16:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ba735b65e45dc110f6f5edb46f978055</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SHN Page Default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Time Off Request" source="x_appe_time_off_0">b6735b65c25dc110a0e2962ea1acc093</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Time Off Request">b6735b65c25dc110a0e2962ea1acc093</sys_scope>
+        <sys_update_name>sys_ux_screen_ba735b65e45dc110f6f5edb46f978055</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-27 06:16:56</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=ba735b65e45dc110f6f5edb46f978055"/>
+</record_update>

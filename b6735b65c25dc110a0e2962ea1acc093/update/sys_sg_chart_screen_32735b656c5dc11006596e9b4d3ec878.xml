@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_chart_screen">
+    <sys_sg_chart_screen action="INSERT_OR_UPDATE">
+        <available_offline>false</available_offline>
+        <description/>
+        <dynamic_prefetch_count/>
+        <empty_state/>
+        <fetch_type>not_required</fetch_type>
+        <filter/>
+        <hide_filters>false</hide_filters>
+        <hide_screen_name>false</hide_screen_name>
+        <icon display_value="icon-Address-Book">f6735b653e5dc110584a2d11051cd379</icon>
+        <name>Time Off Trends</name>
+        <report display_value="Time Off Report by Status">76735b65f05dc11007f5953c4d56696e</report>
+        <roles_override/>
+        <sys_class_name>sys_sg_chart_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-27 06:16:47</sys_created_on>
+        <sys_id>32735b656c5dc11006596e9b4d3ec878</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Time Off Trends</sys_name>
+        <sys_package display_value="Time Off Request" source="x_appe_time_off_0">b6735b65c25dc110a0e2962ea1acc093</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Time Off Request">b6735b65c25dc110a0e2962ea1acc093</sys_scope>
+        <sys_update_name>sys_sg_chart_screen_32735b656c5dc11006596e9b4d3ec878</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-27 06:16:47</sys_updated_on>
+        <tool_tip>true</tool_tip>
+        <type>report</type>
+        <use_last_point>true</use_last_point>
+        <widget/>
+    </sys_sg_chart_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=32735b656c5dc11006596e9b4d3ec878"/>
+</record_update>

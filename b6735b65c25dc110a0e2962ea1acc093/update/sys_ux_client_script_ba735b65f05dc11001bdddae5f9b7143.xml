@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="List">ba735b655c5dc1108c7e5c502f2fd134</macroponent>
+        <name>Decline Success Handler</name>
+        <required_translations>[ {
+  "message" : "You have successfully declined these requests.",
+  "comment" : ""
+} ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+async function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    helpers.modal.close('custom_1');
+    api.setState('declineReason', '');
+    api.setState('selectedSysIds', '');
+    api.setState('selectedTable', '');
+ 
+    const content = await helpers.translate('You have successfully declined these requests.');
+
+    api.setState('listRefresh', {timestamp: Date.now(), background: true });
+    api.emit('NOW_UXF_PAGE#ADD_NOTIFICATIONS', {
+        items: [{
+            id: 'sev-1',
+            status: 'positive',
+            icon: 'info-circle-outline',
+            content,
+            action: {
+                type: 'dismiss'
+            }
+        }]
+    });
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-27 06:16:47</sys_created_on>
+        <sys_id>ba735b65f05dc11001bdddae5f9b7143</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Decline Success Handler</sys_name>
+        <sys_package display_value="Time Off Request" source="x_appe_time_off_0">b6735b65c25dc110a0e2962ea1acc093</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Time Off Request">b6735b65c25dc110a0e2962ea1acc093</sys_scope>
+        <sys_update_name>sys_ux_client_script_ba735b65f05dc11001bdddae5f9b7143</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-27 06:16:47</sys_updated_on>
+    </sys_ux_client_script>
+</record_update>

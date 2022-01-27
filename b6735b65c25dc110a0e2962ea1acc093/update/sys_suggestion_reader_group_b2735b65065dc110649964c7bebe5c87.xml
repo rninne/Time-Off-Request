@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_suggestion_reader_group">
+    <sys_suggestion_reader_group action="INSERT_OR_UPDATE">
+        <click_in_mode>false</click_in_mode>
+        <context_config_id display_value="">f2735b65e25dc110b035499d5d5d520d</context_config_id>
+        <limit>5</limit>
+        <order>300</order>
+        <section_header>null</section_header>
+        <suggestion_type>Suggested Query Reader Group for Time off search config</suggestion_type>
+        <sys_class_name>sys_suggestion_reader_group</sys_class_name>
+        <sys_created_by>mike.fry</sys_created_by>
+        <sys_created_on>2020-12-03 22:36:40</sys_created_on>
+        <sys_id>b2735b65065dc110649964c7bebe5c87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Suggested Query Reader Group for Time off search config</sys_name>
+        <sys_package display_value="Time Off Request" source="x_appe_time_off_0">b6735b65c25dc110a0e2962ea1acc093</sys_package>
+        <sys_policy>null</sys_policy>
+        <sys_scope display_value="Time Off Request">b6735b65c25dc110a0e2962ea1acc093</sys_scope>
+        <sys_update_name>sys_suggestion_reader_group_b2735b65065dc110649964c7bebe5c87</sys_update_name>
+        <sys_updated_by>mike.fry</sys_updated_by>
+        <sys_updated_on>2020-12-03 22:36:40</sys_updated_on>
+    </sys_suggestion_reader_group>
+</record_update>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_m2m_action_layout_item">
+    <sys_ux_m2m_action_layout_item action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <sys_class_name>sys_ux_m2m_action_layout_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-27 06:16:28</sys_created_on>
+        <sys_id>f2735b65e55dc110ee5a091d4754654d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Time Off Request" source="x_appe_time_off_0">b6735b65c25dc110a0e2962ea1acc093</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Time Off Request">b6735b65c25dc110a0e2962ea1acc093</sys_scope>
+        <sys_update_name>sys_ux_m2m_action_layout_item_f2735b65e55dc110ee5a091d4754654d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-27 06:16:28</sys_updated_on>
+        <table>x_appe_time_off_0_request</table>
+        <ux_form_action_layout display_value="Time Off Record">b6735b65eb5dc11037eee64cdd679a4c</ux_form_action_layout>
+        <ux_form_action_layout_item display_value="Submit">3a735b65475dc110e48699e9cfa6234c</ux_form_action_layout_item>
+    </sys_ux_m2m_action_layout_item>
+</record_update>

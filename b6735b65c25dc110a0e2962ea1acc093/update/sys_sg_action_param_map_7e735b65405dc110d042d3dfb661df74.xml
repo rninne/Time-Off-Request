@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="Create time request">fa735b65c85dc1100221bfd43ce25774</button>
+        <item_parameter display_value="Request end_date">3e735b65775dc1105fb5331c9c9eb574</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-27 06:16:53</sys_created_on>
+        <sys_id>7e735b65405dc110d042d3dfb661df74</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>3e735b65775dc1105fb5331c9c9eb574</sys_name>
+        <sys_package display_value="Time Off Request" source="x_appe_time_off_0">b6735b65c25dc110a0e2962ea1acc093</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Time Off Request">b6735b65c25dc110a0e2962ea1acc093</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_7e735b65405dc110d042d3dfb661df74</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-27 06:16:53</sys_updated_on>
+        <ui_parameter display_value="End date">ba735b65fa5dc110f60c1996088d6c74</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>

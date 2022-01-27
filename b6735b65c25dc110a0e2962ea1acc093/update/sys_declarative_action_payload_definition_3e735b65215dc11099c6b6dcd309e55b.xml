@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_declarative_action_payload_definition">
+    <sys_declarative_action_payload_definition action="INSERT_OR_UPDATE">
+        <action_key>EDIT_SELECTED</action_key>
+        <applicable_to>c3547169534723003eddddeeff7b126c,d91731a9534723003eddddeeff7b121c</applicable_to>
+        <description>Edit selected records</description>
+        <label>Edit</label>
+        <payload_field_table>var__m_sys_declarative_action_payload_field_3e735b65215dc11099c6b6dcd309e55b</payload_field_table>
+        <payload_template>{&#13;
+    "table": "{{table}}",&#13;
+    "sysIds": "{{sysIds}}"&#13;
+}</payload_template>
+        <sys_class_name>sys_declarative_action_payload_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-27 06:16:34</sys_created_on>
+        <sys_id>3e735b65215dc11099c6b6dcd309e55b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Edit</sys_name>
+        <sys_package display_value="Time Off Request" source="x_appe_time_off_0">b6735b65c25dc110a0e2962ea1acc093</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Time Off Request">b6735b65c25dc110a0e2962ea1acc093</sys_scope>
+        <sys_update_name>sys_declarative_action_payload_definition_3e735b65215dc11099c6b6dcd309e55b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-27 06:16:34</sys_updated_on>
+    </sys_declarative_action_payload_definition>
+</record_update>
