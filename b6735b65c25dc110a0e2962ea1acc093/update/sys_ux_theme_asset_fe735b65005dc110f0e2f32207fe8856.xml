@@ -30,13 +30,13 @@
         <image_width/>
         <size_bytes>170348</size_bytes>
         <size_compressed>90242</size_compressed>
-        <state>available_conditionally</state>
+        <state>available</state>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-27 06:16:49</sys_created_on>
         <sys_id>32735b65a75dc11033d4feca314b0257</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-27 06:16:49</sys_updated_on>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2022-01-27 06:21:00</sys_updated_on>
         <table_name>sys_ux_theme_asset</table_name>
         <table_sys_id>fe735b65005dc110f0e2f32207fe8856</table_sys_id>
     </sys_attachment>
